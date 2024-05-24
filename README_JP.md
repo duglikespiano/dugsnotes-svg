@@ -39,3 +39,4 @@
 4. Ellipse
 5. Polyline
 6. Polygon
+7. Path

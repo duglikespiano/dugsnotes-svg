@@ -37,3 +37,4 @@
 2. Rectangle
 3. Circle
 4. Ellipse
+5. Polyline

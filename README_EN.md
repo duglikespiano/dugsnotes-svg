@@ -35,3 +35,4 @@
 ### 3. Development note
 
 1. Line
+2. Rectangle

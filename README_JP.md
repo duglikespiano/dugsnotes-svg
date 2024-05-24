@@ -34,3 +34,4 @@
 ### 3. 開発ノート
 
 1. Line
+2. Rectangle

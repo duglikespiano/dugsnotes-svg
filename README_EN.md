@@ -8,6 +8,7 @@
 
 1. Overview
 2. Project goal
+3. Development note
    </br>
    </br>
 
@@ -30,3 +31,7 @@
 2. To study the way to handle SVG file
    </br>
    </br>
+
+### 3. Development note
+
+1. Line

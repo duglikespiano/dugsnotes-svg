@@ -45,3 +45,4 @@
 10. Stroke
 11. Fill
 12. Grouping
+13. Def, Symbol, Use

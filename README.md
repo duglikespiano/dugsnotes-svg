@@ -42,3 +42,4 @@
 6. Polygon
 7. Path
 8. Text
+9. Image

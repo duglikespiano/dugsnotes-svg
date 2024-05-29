@@ -44,3 +44,4 @@
 8. Text
 9. Image
 10. Stroke
+11. Fill

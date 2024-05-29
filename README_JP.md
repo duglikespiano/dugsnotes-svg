@@ -44,3 +44,4 @@
 9. Image
 10. Stroke
 11. Fill
+12. Grouping

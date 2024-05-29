@@ -40,3 +40,4 @@
 5. Polyline
 6. Polygon
 7. Path
+8. Text

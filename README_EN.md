@@ -14,7 +14,7 @@
 
 ### 1. Overview
 
-- Project title : dugsnotes_gasp
+- Project title : dugsnotes_svg
 - Related URL : https://www.udemy.com/course/svg-animation-with-html-css-javascript/
 - Period : May 24 2024 - In progress
 - Member(s) : Dug Park
@@ -43,3 +43,4 @@
 7. Path
 8. Text
 9. Image
+10. Stroke

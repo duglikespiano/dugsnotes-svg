@@ -13,7 +13,7 @@
 
 ### 1. 概要
 
-- Project タイトル: dugsnotes_gasp
+- Project タイトル: dugsnotes_svg
 - 関連 URL : https://www.udemy.com/course/svg-animation-with-html-css-javascript/
 - 期間 : 2024.05.24 - 進行中
 - 人員 : 1 人
@@ -42,3 +42,4 @@
 7. Path
 8. Text
 9. Image
+10. Stroke

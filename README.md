@@ -43,3 +43,4 @@
 7. Path
 8. Text
 9. Image
+10. Stroke

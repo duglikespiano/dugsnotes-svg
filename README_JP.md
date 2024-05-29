@@ -47,3 +47,4 @@
 12. Grouping
 13. Def, Symbol, Use
 14. Path
+15. Gradient

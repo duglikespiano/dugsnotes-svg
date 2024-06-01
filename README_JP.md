@@ -48,3 +48,4 @@
 13. Def, Symbol, Use
 14. Path
 15. Gradient
+16. Edit with javascript

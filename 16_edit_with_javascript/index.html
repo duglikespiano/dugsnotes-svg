@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Line Element Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+
+        }
+
+        .container {
+            background: rgb(245, 200, 167);
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SVG Rect Element </h1>
+    <div class="container">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+
+            <!-- grid start -->
+            <g>
+                <rect style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" width="100" height="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="90" x2="100" y2="90" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="80" x2="100" y2="80" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="70" x2="100" y2="70" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="60" x2="100" y2="60" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="50" x2="100" y2="50" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="40" x2="100" y2="40" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="30" x2="100" y2="30" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="20" x2="100" y2="20" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="0" y1="10" x2="100" y2="10" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="90" y1="0" x2="90" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="80" y1="0" x2="80" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="70" y1="0" x2="70" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="60" y1="0" x2="60" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="50" y1="0" x2="50" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="40" y1="0" x2="40" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="30" y1="0" x2="30" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="20" y1="0" x2="20" y2="100" />
+                <line style="fill:none;stroke:#FFE973;stroke-miterlimit:10;" x1="10" y1="0" x2="10" y2="100" />
+            </g>
+            <!-- grid end -->
+
+            <rect id="rect" x="10" y="10" width="30" height="20" stroke="red" fill="yellow"> </rect>
+
+        </svg>
+
+
+    </div>
+    <div class="center">
+        <button id="button" onclick="scaleSize()">Click me</button>
+    </div>
+
+    <script>
+        function scaleSize() {
+            document.getElementById("rect").setAttribute("width", "50");
+            document.getElementById("rect").setAttribute("height", "40");
+            document.getElementById("rect").setAttribute("y", "30");
+        }
+    </script>
+</body>
+
+</html>

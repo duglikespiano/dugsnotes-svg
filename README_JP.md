@@ -49,3 +49,4 @@
 14. Path
 15. Gradient
 16. Edit with javascript
+17. Stroke animation

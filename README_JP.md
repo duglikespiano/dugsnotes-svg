@@ -54,3 +54,4 @@
 19. Path tracking animation
 20. Create shape animation
 21. Elastic line animation
+22. Title wrapping animation

@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: rgb(20, 20, 20);
+	height: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+.svg-wrapper {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: auto;
+	width: 320px;
+}
+
+svg {
+	position: relative;
+	width: 320px;
+	height: 60px;
+}
+
+svg .shape {
+	width: 320px;
+	height: 60px;
+	fill: transparent;
+	stroke: red;
+	stroke-width: 8px;
+	border: 5px solid black;
+	stroke-dasharray: 140 540;
+	stroke-dashoffset: -474;
+	transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+svg text {
+	fill: white;
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: 8px;
+	transform: translateY(50%);
+}
+
+.svg-wrapper:hover .shape {
+	stroke-width: 2px;
+	stroke-dashoffset: 0;
+	stroke-dasharray: 760;
+}

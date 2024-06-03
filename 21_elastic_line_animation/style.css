@@ -22,7 +22,6 @@ svg:nth-child(2) {
 }
 
 svg path {
-	d: path('M0,25c150,85,150-85,300,0');
 	stroke: #ff0092;
 	stroke-width: 50;
 	stroke-linecap: round;

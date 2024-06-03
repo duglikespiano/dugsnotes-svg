@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./style.css" rel="stylesheet" />
+		<title>Wavy Text Animation</title>
+	</head>
+	<body>
+		<svg>
+			<filter id="wave">
+				<feTurbulence type="turbulence" baseFrequency="0.005" numOctaves="5"></feTurbulence>
+				<feDisplacementMap in="SourceGraphic" scale="50"></feDisplacementMap>
+			</filter>
+		</svg>
+		<h2 contenteditable="true">My Text</h2>
+	</body>
+</html>

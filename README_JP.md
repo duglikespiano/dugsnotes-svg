@@ -15,7 +15,7 @@
 
 - Project タイトル: dugsnotes_svg
 - 関連 URL : https://www.udemy.com/course/svg-animation-with-html-css-javascript/
-- 期間 : 2024.05.24 - 進行中
+- 期間 : 2024.05.24 - 2024.06.04
 - 人員 : 1 人
 - 技術スタック : </br>
   <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">

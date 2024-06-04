@@ -16,7 +16,7 @@
 
 - Project title : dugsnotes_svg
 - Related URL : https://www.udemy.com/course/svg-animation-with-html-css-javascript/
-- Period : May 24 2024 - In progress
+- Period : May 24 2024 - June 4 2024
 - Member(s) : Dug Park
 - Tech stack : </br>
   <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">

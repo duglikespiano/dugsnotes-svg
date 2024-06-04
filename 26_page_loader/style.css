@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(66, 66, 66);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.loader {
+	height: 300px;
+	width: 300px;
+	margin-top: 300px;
+}

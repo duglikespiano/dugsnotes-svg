@@ -1,0 +1,32 @@
+body {
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+}
+
+svg {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	font-size: 15em;
+	font-family: sans-serif;
+	transition: font-size 1s;
+}
+
+svg rect {
+	fill: #fff;
+	mask: url(#mask);
+}
+
+@media screen and (max-width: 1200px) {
+	svg {
+		font-size: 10em;
+	}
+}

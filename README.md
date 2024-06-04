@@ -58,3 +58,4 @@
 22. Title wrapping animation
 23. Wavy text animation
 24. 3D hover animation
+25. Masking with video

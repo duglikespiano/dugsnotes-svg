@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./style.css" rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+		<script src="./app.js" defer></script>
+		<title>Image Turbulence</title>
+	</head>
+	<body>
+		<svg>
+			<filter id="noise" x="0%" y="0%" width="100%" height="100%">
+				<feTurbulence id="turbulence" baseFrequency="0.02 0.03" result="NOISE" numOctaves="1" />
+				<feDisplacementMap in="SourceGraphic" in2="NOISE" scale="20" />
+			</filter>
+		</svg>
+		<div class="container">
+			<img src="./image.jpg" />
+		</div>
+	</body>
+</html>

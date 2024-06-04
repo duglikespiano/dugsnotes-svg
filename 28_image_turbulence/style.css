@@ -1,0 +1,27 @@
+body {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+	position: absolute;
+}
+
+.container {
+	display: grid;
+	width: 80%;
+	height: 100vh;
+	grid-template-columns: repeat(1, auto);
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	filter: url(#noise);
+}
